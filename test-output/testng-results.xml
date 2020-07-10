@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2671" started-at="2018-08-06T19:26:08Z" finished-at="2018-08-06T19:26:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2671" started-at="2018-08-06T19:26:08Z" finished-at="2018-08-06T19:26:11Z">
+      <class name="main.Prueba1">
+        <test-method status="PASS" signature="putdata()[pri:0, instance:main.Prueba1@c038203]" name="putdata" is-config="true" duration-ms="374" started-at="2018-08-06T14:26:08Z" finished-at="2018-08-06T14:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.Prueba1@c038203]" name="setup" is-config="true" duration-ms="1" started-at="2018-08-06T14:26:08Z" finished-at="2018-08-06T14:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:main.Prueba1@c038203]" name="testDelete" duration-ms="1909" started-at="2018-08-06T14:26:08Z" finished-at="2018-08-06T14:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testPUT()[pri:0, instance:main.Prueba1@c038203]" name="testPUT" duration-ms="369" started-at="2018-08-06T14:26:10Z" finished-at="2018-08-06T14:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPUT -->
+      </class> <!-- main.Prueba1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
