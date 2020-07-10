@@ -1,0 +1,44 @@
+ENVIO POST EN FORMULARIO (INSERTAR)
+	conf_params = {"http://172.17.31.156/Crossfitlife/","80"};
+	post_arrays = {"action", "GuardarPlan", "codplan", "28814140000", "precioplan", "80000", "descripplan", "5 meses", "cantdias",  "5"};
+	resource = "WEBAPP/Controller/controller.php";
+	Type_load = "Form"
+	
+ENVIO POST EN BODY (INSERTAR)
+	conf_params = {"http://restapi.demoqa.com/customer","80"};
+	post_arrays = {"FirstName", "raul2", "LastName", "Singh", "UserName", "userprueba", "Password", "password1", "Email", "sample@gmail.com"};
+	resource = "/register";
+	Header = {"Content-Type", "application/json"};
+	Type_load = "Body"
+	
+	conf_params = {"http://jsonplaceholder.typicode.com","80"};
+	post_arrays = {"userId", "800","id", "189","title", "this is projectd8ebug.com","body", "this is8 REST-Assured Tutorial"};
+	resource = "/posts/";
+	Header = {"Content-Type", "application/json"};
+	Type_load = "Body";
+	
+ENVIO POST EN QUERY (INSERTAR)
+	conf_params = {"http://name.com/rest/crm","80"};
+	post_arrays = {"access_token", "LLRPqxvU1uoT8YSl8" ,"pageNo", "1" ,"order", "desc"};
+	resource = "/getdetails";
+	Header = {"Content-Type", "application/json"};
+	Type_load = "Query";
+	
+	
+ENVIO GET (CONSULTA)
+	conf_params = {"http://jsonplaceholder.typicode.com/posts","80"};
+	id_resource = "?id=80";
+	Header = {"Content-Type", "application/json"};
+	
+ENVIO PUT (UPDATE)
+	conf_params = {"http://jsonplaceholder.typicode.com/posts/","80"};
+	post_arrays = {"userId", "2", "id", "19", "title", "this is projectdebug.com", "body", "i am testing REST api with REST-Assured and sending a PUT request."};
+	Put_param = "/100";
+	Header = {"Content-Type", "application/json"};
+	Type_load = "Body";
+	
+ENVIO DELETE (ELIMINAR)
+	conf_params = {"http://jsonplaceholder.typicode.com/posts/","80"};
+	Dlt_param = "/1";
+	
+
